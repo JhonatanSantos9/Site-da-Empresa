@@ -1,0 +1,95 @@
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --laranja: #F3901E;
+    --marrom: #1C080B;
+    --rosa: #E764A1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    background-color: var(--laranja);
+    color: white;
+    background-image: url(../imagens/pexels-sharon-mccutcheon-1191639.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-mcdonuts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Segoe Script';
+}
+
+.header-mcdonuts > img{
+    width: 100px;
+    max-height: 200px;
+}
+
+nav{
+    min-width: 100%;
+    min-height: 20px;
+    background-color: var(--laranja);
+    margin-top: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav > a{
+    padding: 7px 9px 7px 9px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.nav > a:hover{
+    color: var(--laranja);
+    background-color: var(--marrom);
+    transition: .3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main{
+    height: 2000px;
+    background-color: rgb(26, 7, 9);
+}
+
+.img-donut1{
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/donuts.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    width: 100%;
+    min-height: 100px;
+    max-height: 150px;
+    background-color: var(--laranja);
+    color: white;
+}
