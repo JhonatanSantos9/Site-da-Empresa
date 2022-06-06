@@ -35,8 +35,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 10px;
     font-family: 'Segoe Script';
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 100%;
+    height: 100%;
 }
 
 .header-mcdonuts > img{
@@ -48,12 +51,13 @@ nav{
     min-width: 100%;
     min-height: 20px;
     background-color: var(--laranja);
-    margin-top: 10px;
 }
 
 .nav{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav > a{
@@ -72,6 +76,18 @@ nav{
     border-top-right-radius: 10px;
 }
 
+@media (max-width: 375px){
+    .nav > a:not(.a-paginaprincipal){
+        padding: 17px 9px 17px 9px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+
+    .a-paginaprincipal:hover{
+        padding-top: 8px;
+    }
+}
+
 main{
     height: 2000px;
     background-color: rgb(26, 7, 9);
@@ -88,8 +104,9 @@ main{
 
 footer{
     width: 100%;
-    min-height: 100px;
-    max-height: 150px;
-    background-color: var(--laranja);
+    min-height: 300px;
+    max-height: 500px;
+    background-image: linear-gradient(to top, #F3901E, #1C080B);
+    /*background-color: var(--laranja);*/
     color: white;
 }
