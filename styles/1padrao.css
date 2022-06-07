@@ -13,6 +13,12 @@
     --rosa: #E764A1;
 }
 
+@font-face {
+    font-family: 'Segoe Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe Script Regular'), url('Segoe Script.woff') format('woff');
+    }
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 header{
