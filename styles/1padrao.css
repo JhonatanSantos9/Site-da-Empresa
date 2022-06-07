@@ -68,26 +68,6 @@ nav{
     font-size: 16px;
 }
 
-.nav > a:hover{
-    color: var(--laranja);
-    background-color: var(--marrom);
-    transition: .3s;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-@media (max-width: 375px){
-    .nav > a:not(.a-paginaprincipal){
-        padding: 17px 9px 17px 9px;
-        border-top-left-radius: 13px;
-        border-top-right-radius: 13px;
-    }
-
-    .a-paginaprincipal:hover{
-        padding-top: 8px;
-    }
-}
-
 main{
     height: 2000px;
     background-color: rgb(26, 7, 9);
@@ -102,6 +82,22 @@ main{
     background-attachment: fixed;
 }
 
+hr{
+    border-style: solid;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width:375px){
+    hr{
+        width: 99%;
+    }
+
+    .hr-footer{
+        width: 50%;
+    }
+}
+
 footer{
     width: 100%;
     min-height: 300px;
@@ -109,4 +105,27 @@ footer{
     background-image: linear-gradient(to top, #F3901E, #1C080B);
     /*background-color: var(--laranja);*/
     color: white;
+}
+
+.div-footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.div-footer-esquerdo{
+    width: 49vw;
+    height: 300px;
+}
+
+.div-footer-meio{
+    width: 0.1px;
+    height: 240px;
+    border: 1px solid white;
+}
+
+.div-footer-direito{
+    width: 49vw;
+    height: 300px;
 }

@@ -1,0 +1,35 @@
+
+
+
+
+:root {
+    --laranja: #F3901E;
+    --marrom: #1C080B;
+    --rosa: #E764A1;
+}
+
+.a-paginaprincipal{
+    background-color: #1C080B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav > a:hover{
+    color: var(--laranja);
+    background-color: var(--marrom);
+    transition: .3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 375px){
+    .nav > a:not(.a-paginaprincipal){
+        padding: 17px 9px 17px 9px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+
+    .a-paginaprincipal:hover{
+        padding-top: 10px;
+    }
+}
