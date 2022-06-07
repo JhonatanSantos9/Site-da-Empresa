@@ -88,7 +88,7 @@ main{
 .main-container{
     width: 100vw;
     height: 1700px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--marrom);
 }
 
 .div-emcima-do-footer{
