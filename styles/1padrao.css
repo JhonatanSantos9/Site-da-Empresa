@@ -75,34 +75,25 @@ nav{
 }
 
 main{
-    height: 2400px;
+    height: 2500px;
     background-color: rgb(26, 7, 9);
 }
 
-.slide{
-    width: 100%;
-    height: 500px;
-    background-color: #1C080B;
-}
-
 .main-container{
-    width: 100vw;
+    width: 100%;
     height: 1700px;
     background-color: var(--marrom);
 }
 
 .div-emcima-do-footer{
     width: 100%;
-    height: 100px;
-}
-
-.img-donut1{
-    width: 100%;
-    height: 400px;
+    height: 207px;
+    margin-top: 30px;
     background-image: url(../imagens/donuts.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    border-bottom: 2px solid white;
 }
 
 hr{
