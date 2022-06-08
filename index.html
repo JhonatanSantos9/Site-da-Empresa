@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/1padrao.css">
     <link rel="stylesheet" href="./styles/2paginaprincipal.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/gallery.min.css">
+    <link rel="stylesheet" href="styles/gallery.theme.css">
 </head>
 <body>
 
@@ -29,11 +31,32 @@
     </header>
 
     <main>
-        <div class="slide"></div>
+        <div class="gallery autoplay items-3">
 
-        <!--<div class="img-donut1">
-            <p>Os melhores Donuts do mundo</p>
-        </div>-->
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+
+            <figure class="item">
+                <h1><img src="imagens/donutss1.jpg"></h1>
+            </figure>
+
+            <figure class="item">
+                    <h1><img src="imagens/donutss2.jpg"></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="imagens/donutss3.jpg"></h1>
+            </figure>
+
+            <div class="controls">
+                <a href="#item-1" class="control-button">.</a>
+                <a href="#item-2" class="control-button">.</a>
+                <a href="#item-3" class="control-button">.</a>
+            </div>
+
+
+        </div>
         <div class="main-container">
             <div class="main-container-inside">
 
