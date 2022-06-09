@@ -61,3 +61,60 @@ header{
     padding-right: 100px;
     border: 3px dashed white;
 }
+
+h2{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-decoration: underline 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+.twitter{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.twitter-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.instagram-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.facebook-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}

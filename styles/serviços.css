@@ -50,3 +50,33 @@ header{
         padding-top: 8px;
     }
 }
+
+.main-serviços{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.aviso-de-entrega{
+    display: flex;
+    justify-content: space-around;
+    width: 1116px;
+    height: 300px;
+}
+
+.encomendar{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.encomendar > p{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.caminhao-de-entrega{
+    width: 500px;
+    height: 250px;
+}
