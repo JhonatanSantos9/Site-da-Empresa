@@ -158,6 +158,7 @@ header{
 }
 
 .btn-encomendar{
+    margin-top: 20px;
     width: 350px;
     height: 100px;
 }

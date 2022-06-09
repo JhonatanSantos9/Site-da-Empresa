@@ -50,3 +50,97 @@ header{
         padding-top: 8px;
     }
 }
+
+.main-produtos{
+    height: 1500px;
+    background-color: rgb(26, 7, 9);
+}
+
+.main-container-produtos{
+    width: 100%;
+    height: 1700px;
+    background-color: var(--marrom);
+    padding-top: 30px;
+}
+
+.main-container-inside{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1350px;
+    margin: 0px auto 30px;
+    padding: 30px;
+    border: 4px dashed white;
+}
+
+.donut1{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid #F3901E;
+}
+
+.donut11{
+    width: 580px;
+    height: 398px;
+    margin-right: 30px;
+    border: 1px solid white;
+}
+
+.descricao-donut1 > p{
+    width: 400px;
+    color: white;
+    font-size: 2.7em;
+    font-style: italic;
+}
+
+
+.donut2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 98%;
+    height: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    border: 2px solid #F3901E;
+}
+
+.donut22{
+    width: 580px;
+    height: 398px;
+    margin-right: 30px;
+    border: 1px solid white;
+}
+
+.descricao-donut2 > p{
+    width: 400px;
+    color: white;
+    font-size: 2.7em;
+    font-style: italic;
+}
+
+.donut3{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    border: 2px solid #F3901E;
+}
+
+.donut33{
+    width: 580px;
+    height: 398px;
+    margin-right: 30px;
+    border: 1px solid white;
+}
+
+.descricao-donut3 > p{
+    width: 400px;
+    color: white;
+    font-size: 2.7em;
+    font-style: italic;
+}
